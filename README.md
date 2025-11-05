@@ -6,13 +6,13 @@ The lab is intended for learning, testing and research in a controlled environme
 ## Run Instructions
 
 Clone the repository and move inside it</br>
-```git clone https://github.com/alessio-romano/WildFly-Research-Labs.git && cd /WildFly-Research_Labs```
+```git clone https://github.com/alessio-romano/WildFly-Research-Labs.git && cd /WildFly-Research-Labs```
 
 Build the docker instance</br>
-```sudo docker build --no-cache -t wildfly37-java25 .```
+```sudo docker build --no-cache -t wildfly37-java17 .```
 
 Run the Instance and allow accessing the web application from local port 8080</br>
-```sudo docker run -p 8080:8080 wildfly37-java25```
+```sudo docker run -p 8080:8080 wildfly37-java17```
 
 The Dockerfile will automatically download the war packages meant for the exercise, which you will be able to access at</br>
 ```localhost:8080/research_lab/```</br>
